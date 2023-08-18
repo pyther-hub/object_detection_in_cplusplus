@@ -57,11 +57,11 @@ int main(int argc, char *argv[])
     // cmd.add("gpu", '\0', "Inference on CUDA device.");
     // cmd.parse_check(argc, argv);
 
-    bool isGPU = false;                                                                                      // cmd.exist("gpu");
-    const std::string classNamesPath = "/Users/sudhanshu/Desktop/work/yolov5-onnxruntime/models/coco.names"; // cmd.get<std::string>("class_names");
+    bool isGPU = false;                                                                                      
+    const std::string classNamesPath = "/Users/sudhanshu/Desktop/work/yolov5-onnxruntime/models/coco.names"; 
     const std::vector<std::string> classNames = utils::loadNames(classNamesPath);
-    const std::string videopath = "/Users/sudhanshu/Desktop/work/yolov5-onnxruntime/videos/video01.mp4";     // cmd.get<std::string>("image");
-    const std::string modelPath = "/Users/sudhanshu/Desktop/work/yolov5-onnxruntime/models/yolov7s.onnx"; // cmd.get<std::string>("model_path");
+    const std::string videopath = "/Users/sudhanshu/Desktop/work/yolov5-onnxruntime/videos/video01.mp4";     
+    const std::string modelPath = "/Users/sudhanshu/Desktop/work/yolov5-onnxruntime/models/yolov7s.onnx"; 
     if (classNames.empty())
     {
         std::cerr << "Error: Empty class names file." << std::endl;

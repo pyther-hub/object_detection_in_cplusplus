@@ -58,10 +58,10 @@ int main(int argc, char *argv[])
     // cmd.parse_check(argc, argv);
 
     bool isGPU = false;                                                                                      
-    const std::string classNamesPath = "/Users/sudhanshu/Desktop/work/yolov5-onnxruntime/models/coco.names"; 
+    const std::string classNamesPath = "../models/coco.names"; 
     const std::vector<std::string> classNames = utils::loadNames(classNamesPath);
-    const std::string videopath = "/Users/sudhanshu/Desktop/work/yolov5-onnxruntime/videos/video01.mp4";     
-    const std::string modelPath = "/Users/sudhanshu/Desktop/work/yolov5-onnxruntime/models/yolov7s.onnx"; 
+    const std::string videopath = "../videos/media01.mp4";     
+    const std::string modelPath = "../models/yolov7s.onnx"; 
     if (classNames.empty())
     {
         std::cerr << "Error: Empty class names file." << std::endl;
@@ -76,7 +76,7 @@ int main(int argc, char *argv[])
     int frameWidth = static_cast<int>(cap.get(cv::CAP_PROP_FRAME_WIDTH));
     int frameHeight = static_cast<int>(cap.get(cv::CAP_PROP_FRAME_HEIGHT));
     double fps = cap.get(cv::CAP_PROP_FPS);
-    cv::VideoWriter outputVideo("/Users/sudhanshu/Desktop/work/yolov5-onnxruntime/videos/video01_output.mp4", cv::VideoWriter::fourcc('X', 'V', 'I', 'D'), fps, cv::Size(frameWidth, frameHeight));
+    cv::VideoWriter outputVideo("../videos/media01_output.mp4", cv::VideoWriter::fourcc('X', 'V', 'I', 'D'), fps, cv::Size(frameWidth, frameHeight));
     cv::Mat frame;
     cv::Mat obj_detect_frame;
 

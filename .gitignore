@@ -1,0 +1,48 @@
+# Ignore IDE/Editor-specific files
+.idea/
+.vscode/
+.project
+.DS_Store
+
+# Ignore compiled files
+*.exe
+*.dll
+*.o
+*.obj
+*.out
+*.class
+
+# Ignore temporary/backup files
+*~
+*.bak
+
+# Ignore dependency directories
+/node_modules/
+/vendor/
+
+# Ignore build output
+/build/
+/dist/
+/target/
+
+# Ignore logs and debug output
+/log/
+/logs/
+/debug/
+
+# Ignore configurations
+.env
+.config/
+
+# Ignore sensitive information
+.secrets/
+
+# Ignore user-generated content
+/uploads/
+/media/
+
+# Ignore data and database files
+*.sqlite
+*.db
+*.sql
+/data/

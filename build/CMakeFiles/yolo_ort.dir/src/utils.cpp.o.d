@@ -1,6 +1,6 @@
 CMakeFiles/yolo_ort.dir/src/utils.cpp.o: \
-  /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/src/utils.cpp \
-  /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/include/utils.h \
+  /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/src/utils.cpp \
+  /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/include/utils.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/codecvt \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config_site \

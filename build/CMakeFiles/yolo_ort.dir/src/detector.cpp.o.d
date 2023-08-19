@@ -1,6 +1,6 @@
 CMakeFiles/yolo_ort.dir/src/detector.cpp.o: \
-  /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/src/detector.cpp \
-  /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/include/detector.h \
+  /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/src/detector.cpp \
+  /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/include/detector.h \
   /usr/local/include/opencv4/opencv2/opencv.hpp \
   /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/local/include/opencv4/opencv2/core.hpp \
@@ -552,7 +552,7 @@ CMakeFiles/yolo_ort.dir/src/detector.cpp.o: \
   /usr/local/include/onnxruntime/core/session/onnxruntime_cxx_api.h \
   /usr/local/include/onnxruntime/core/session/onnxruntime_c_api.h \
   /usr/local/include/onnxruntime/core/session/onnxruntime_cxx_inline.h \
-  /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/include/utils.h \
+  /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/include/utils.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/codecvt \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/filesystem \

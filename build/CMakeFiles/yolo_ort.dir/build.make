@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.27.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sudhanshu/Desktop/work/yolov5-onnxruntime
+CMAKE_SOURCE_DIR = /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/build
+CMAKE_BINARY_DIR = /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/yolo_ort.dir/depend.make
@@ -70,46 +70,46 @@ include CMakeFiles/yolo_ort.dir/progress.make
 include CMakeFiles/yolo_ort.dir/flags.make
 
 CMakeFiles/yolo_ort.dir/src/main.cpp.o: CMakeFiles/yolo_ort.dir/flags.make
-CMakeFiles/yolo_ort.dir/src/main.cpp.o: /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/src/main.cpp
+CMakeFiles/yolo_ort.dir/src/main.cpp.o: /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/src/main.cpp
 CMakeFiles/yolo_ort.dir/src/main.cpp.o: CMakeFiles/yolo_ort.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sudhanshu/Desktop/work/yolov5-onnxruntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/yolo_ort.dir/src/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/yolo_ort.dir/src/main.cpp.o -MF CMakeFiles/yolo_ort.dir/src/main.cpp.o.d -o CMakeFiles/yolo_ort.dir/src/main.cpp.o -c /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/yolo_ort.dir/src/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/yolo_ort.dir/src/main.cpp.o -MF CMakeFiles/yolo_ort.dir/src/main.cpp.o.d -o CMakeFiles/yolo_ort.dir/src/main.cpp.o -c /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/src/main.cpp
 
 CMakeFiles/yolo_ort.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yolo_ort.dir/src/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/src/main.cpp > CMakeFiles/yolo_ort.dir/src/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/src/main.cpp > CMakeFiles/yolo_ort.dir/src/main.cpp.i
 
 CMakeFiles/yolo_ort.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yolo_ort.dir/src/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/src/main.cpp -o CMakeFiles/yolo_ort.dir/src/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/src/main.cpp -o CMakeFiles/yolo_ort.dir/src/main.cpp.s
 
 CMakeFiles/yolo_ort.dir/src/detector.cpp.o: CMakeFiles/yolo_ort.dir/flags.make
-CMakeFiles/yolo_ort.dir/src/detector.cpp.o: /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/src/detector.cpp
+CMakeFiles/yolo_ort.dir/src/detector.cpp.o: /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/src/detector.cpp
 CMakeFiles/yolo_ort.dir/src/detector.cpp.o: CMakeFiles/yolo_ort.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sudhanshu/Desktop/work/yolov5-onnxruntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/yolo_ort.dir/src/detector.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/yolo_ort.dir/src/detector.cpp.o -MF CMakeFiles/yolo_ort.dir/src/detector.cpp.o.d -o CMakeFiles/yolo_ort.dir/src/detector.cpp.o -c /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/src/detector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/yolo_ort.dir/src/detector.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/yolo_ort.dir/src/detector.cpp.o -MF CMakeFiles/yolo_ort.dir/src/detector.cpp.o.d -o CMakeFiles/yolo_ort.dir/src/detector.cpp.o -c /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/src/detector.cpp
 
 CMakeFiles/yolo_ort.dir/src/detector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yolo_ort.dir/src/detector.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/src/detector.cpp > CMakeFiles/yolo_ort.dir/src/detector.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/src/detector.cpp > CMakeFiles/yolo_ort.dir/src/detector.cpp.i
 
 CMakeFiles/yolo_ort.dir/src/detector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yolo_ort.dir/src/detector.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/src/detector.cpp -o CMakeFiles/yolo_ort.dir/src/detector.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/src/detector.cpp -o CMakeFiles/yolo_ort.dir/src/detector.cpp.s
 
 CMakeFiles/yolo_ort.dir/src/utils.cpp.o: CMakeFiles/yolo_ort.dir/flags.make
-CMakeFiles/yolo_ort.dir/src/utils.cpp.o: /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/src/utils.cpp
+CMakeFiles/yolo_ort.dir/src/utils.cpp.o: /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/src/utils.cpp
 CMakeFiles/yolo_ort.dir/src/utils.cpp.o: CMakeFiles/yolo_ort.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sudhanshu/Desktop/work/yolov5-onnxruntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/yolo_ort.dir/src/utils.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/yolo_ort.dir/src/utils.cpp.o -MF CMakeFiles/yolo_ort.dir/src/utils.cpp.o.d -o CMakeFiles/yolo_ort.dir/src/utils.cpp.o -c /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/src/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/yolo_ort.dir/src/utils.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/yolo_ort.dir/src/utils.cpp.o -MF CMakeFiles/yolo_ort.dir/src/utils.cpp.o.d -o CMakeFiles/yolo_ort.dir/src/utils.cpp.o -c /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/src/utils.cpp
 
 CMakeFiles/yolo_ort.dir/src/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yolo_ort.dir/src/utils.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/src/utils.cpp > CMakeFiles/yolo_ort.dir/src/utils.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/src/utils.cpp > CMakeFiles/yolo_ort.dir/src/utils.cpp.i
 
 CMakeFiles/yolo_ort.dir/src/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yolo_ort.dir/src/utils.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/src/utils.cpp -o CMakeFiles/yolo_ort.dir/src/utils.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/src/utils.cpp -o CMakeFiles/yolo_ort.dir/src/utils.cpp.s
 
 # Object files for target yolo_ort
 yolo_ort_OBJECTS = \
@@ -181,7 +181,7 @@ yolo_ort: /usr/local/lib/libopencv_photo.4.8.0.dylib
 yolo_ort: /usr/local/lib/libopencv_imgproc.4.8.0.dylib
 yolo_ort: /usr/local/lib/libopencv_core.4.8.0.dylib
 yolo_ort: CMakeFiles/yolo_ort.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/sudhanshu/Desktop/work/yolov5-onnxruntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable yolo_ort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable yolo_ort"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/yolo_ort.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -193,6 +193,6 @@ CMakeFiles/yolo_ort.dir/clean:
 .PHONY : CMakeFiles/yolo_ort.dir/clean
 
 CMakeFiles/yolo_ort.dir/depend:
-	cd /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sudhanshu/Desktop/work/yolov5-onnxruntime /Users/sudhanshu/Desktop/work/yolov5-onnxruntime /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/build /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/build /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/build/CMakeFiles/yolo_ort.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/build /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/build /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/build/CMakeFiles/yolo_ort.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/yolo_ort.dir/depend
 

@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/sudhanshu/Desktop/work/yolov5-onnxruntime/src/detector.cpp" "CMakeFiles/yolo_ort.dir/src/detector.cpp.o" "gcc" "CMakeFiles/yolo_ort.dir/src/detector.cpp.o.d"
-  "/Users/sudhanshu/Desktop/work/yolov5-onnxruntime/src/main.cpp" "CMakeFiles/yolo_ort.dir/src/main.cpp.o" "gcc" "CMakeFiles/yolo_ort.dir/src/main.cpp.o.d"
-  "/Users/sudhanshu/Desktop/work/yolov5-onnxruntime/src/utils.cpp" "CMakeFiles/yolo_ort.dir/src/utils.cpp.o" "gcc" "CMakeFiles/yolo_ort.dir/src/utils.cpp.o.d"
+  "/Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/src/detector.cpp" "CMakeFiles/yolo_ort.dir/src/detector.cpp.o" "gcc" "CMakeFiles/yolo_ort.dir/src/detector.cpp.o.d"
+  "/Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/src/main.cpp" "CMakeFiles/yolo_ort.dir/src/main.cpp.o" "gcc" "CMakeFiles/yolo_ort.dir/src/main.cpp.o.d"
+  "/Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/src/utils.cpp" "CMakeFiles/yolo_ort.dir/src/utils.cpp.o" "gcc" "CMakeFiles/yolo_ort.dir/src/utils.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

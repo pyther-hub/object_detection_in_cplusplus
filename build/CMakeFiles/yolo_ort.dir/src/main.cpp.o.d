@@ -1,5 +1,5 @@
 CMakeFiles/yolo_ort.dir/src/main.cpp.o: \
-  /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/src/main.cpp \
+  /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/src/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config_site \
@@ -548,13 +548,13 @@ CMakeFiles/yolo_ort.dir/src/main.cpp.o: \
   /usr/local/include/opencv4/opencv2/video.hpp \
   /usr/local/include/opencv4/opencv2/video/tracking.hpp \
   /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
-  /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/include/cmdline.h \
-  /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/include/utils.h \
+  /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/include/cmdline.h \
+  /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/include/utils.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/codecvt \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stack \
-  /Users/sudhanshu/Desktop/work/yolov5-onnxruntime/include/detector.h \
+  /Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/include/detector.h \
   /usr/local/include/onnxruntime/core/session/onnxruntime_cxx_api.h \
   /usr/local/include/onnxruntime/core/session/onnxruntime_c_api.h \
   /usr/local/include/onnxruntime/core/session/onnxruntime_cxx_inline.h

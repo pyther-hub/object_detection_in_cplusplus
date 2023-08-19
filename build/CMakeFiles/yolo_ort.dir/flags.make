@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/sudhanshu/Desktop/work/yolov5-onnxruntime/include -I/usr/local/include/onnxruntime/core/session -isystem /usr/local/include/opencv4
+CXX_INCLUDES = -I/Users/sudhanshu/Desktop/work/object_detection_in_cplusplus/include -I/usr/local/include/onnxruntime/core/session -isystem /usr/local/include/opencv4
 
-CXX_FLAGS = -O3 -DNDEBUG -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6
+CXX_FLAGS = -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6
 

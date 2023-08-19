@@ -49,14 +49,6 @@ int main(int argc, char *argv[])
 {
 
 
-    // Parse command-line arguments
-    // cmdline::parser cmd;
-    // cmd.add<std::string>("model_path", 'm', "Path to ONNX model.", true, "yolov5.onnx");
-    // cmd.add<std::string>("image", 'i', "Image source to be detected.", true, "bus.jpg");
-    // cmd.add<std::string>("class_names", 'c', "Path to class names file.", true, "coco.names");
-    // cmd.add("gpu", '\0', "Inference on CUDA device.");
-    // cmd.parse_check(argc, argv);
-
     bool isGPU = false;                                                                                      
     const std::string classNamesPath = "../models/coco.names"; 
     const std::vector<std::string> classNames = utils::loadNames(classNamesPath);
@@ -82,21 +74,10 @@ int main(int argc, char *argv[])
 
     while (cap.read(frame))
     {
-        // Call your custom processing function
-        // cv::Mat processedFrame = detect_in_frame(frame);
 
         // Write the processed frame to the output video
         obj_detect_frame = detect_in_frame(frame, modelPath, classNames, isGPU);
         outputVideo.write(obj_detect_frame);
-
-        // Display the processed frame (optional)
-        // cv::imshow("Processed Frame", processedFrame);
-
-        // // Break the loop if the 'q' key is pressed
-        // if (cv::waitKey(1) == 'q')
-        // {
-        //     break;
-        // }
     }
     return 0;
 }

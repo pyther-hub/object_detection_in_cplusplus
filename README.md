@@ -1,38 +1,51 @@
-# yolov5-onnxruntime
+# yolov7
 
-C++ YOLO v5 ONNX Runtime inference code for object detection.
+C++ YOLO v7 ONNX Runtime inference code for object detection in a Video.
 
 ## Dependecies:
 - OpenCV 4.x
-- ONNXRuntime 1.7+
-- OS: Tested on Windows 10 and Ubuntu 20.04
+- ONNXRuntime 1.11+
+- OS: Tested on MacOS
 - CUDA 11+ [Optional]
 
+## Install:
+```bash
+brew install onnxruntime
+brew install opencv
+```
 
-## Build
-To build the project you should run the following commands, don't forget to change `ONNXRUNTIME_DIR` cmake option:
+
+## Build:
+To build the project you should run the following commands.
 
 ```bash
 mkdir build
 cd build
-cmake .. -DONNXRUNTIME_DIR=path_to_onnxruntime -DCMAKE_BUILD_TYPE=Release
-cmake --build .
+cmake .. 
+make
 ```
 
 ## Run
-Before running the executable you should convert your PyTorch model to ONNX if you haven't done it yet. Check the [official tutorial](https://github.com/ultralytics/yolov5/issues/251).
+Before running the executable you should convert your PyTorch model to ONNX if you haven't done it yet.
+`On MacOS`: to run the executable you should add OpenCV and ONNX Runtime libraries which we did using `Homebrew`
 
-`On Windows`: to run the executable you should add OpenCV and ONNX Runtime libraries to your environment path `or` put all needed libraries near the executable (onnxruntime.dll and opencv_world.dll).
+Change file path and names.
+```c++
+    const std::string classNamesPath = "../models/coco.names"; 
+    const std::vector<std::string> classNames = utils::loadNames(classNamesPath);
+    const std::string videopath = "../videos/media01.mp4";     
+    const std::string modelPath = "../models/yolov7s.onnx";
+```
+Note:- current directory should be the build.
 
 Run from CLI:
 ```bash
-./yolo_ort --model_path yolov5.onnx --image bus.jpg --class_names coco.names --gpu
-# On Windows ./yolo_ort.exe with arguments as above
+./yolo_ort
 ```
 
 ## Demo
 
-YOLOv5m onnx:
+YOLOv7s onnx:
 
 <p align="center">
   <a href="images/bus_result.jpg"><img src="images/bus_result.jpg" style="width:60%; height:60%;"/></a>

@@ -4,12 +4,7 @@
 #include "cmdline.h"
 #include "utils.h"
 #include "detector.h"
-// cv::Mat flipImage(const cv::Mat inputImage)
-// {
-//     cv::Mat flippedImage;
-//     cv::flip(inputImage, flippedImage, 1); // Flip along the vertical axis (horizontal flip)
-//     return flippedImage;
-// }
+
 cv::Mat detect_in_frame(cv::Mat image, std::string modelPath, std::vector<std::string> classNames, bool isGPU)
 {
     const float confThreshold = 0.3f;
@@ -17,30 +12,15 @@ cv::Mat detect_in_frame(cv::Mat image, std::string modelPath, std::vector<std::s
 
     YOLODetector detector{nullptr};
     std::vector<Detection> result;
-    // obj_detect_frame = detect_in_frame(frame, modelPath, classNames, isGPU);
+
     detector = YOLODetector(modelPath, isGPU, cv::Size(640, 640));
-    // std::cout << "Model was initialized." << std::endl;
+
     // Load image and perform object detection
     result = detector.detect(image, confThreshold, iouThreshold);
-    // std::cout << "Detection completed." << std::endl;
-    // try
-    // {
-    //     // Initialize YOLO detector
 
-    // }
-    // catch (const std::exception &e)
-    // {
-    //     std::cerr << e.what() << std::endl;
-    //     return -1;
-    // }
-
-    // Visualize detected objects
     utils::visualizeDetection(image, result, classNames);
 
-    // Display and optionally save the result
-    // cv::imshow("Result", image);
-    // cv::imwrite("result.jpg", image);  // Uncomment this line to save the result image
-    // cv::waitKey(0);
+;
 
     return image;
 }

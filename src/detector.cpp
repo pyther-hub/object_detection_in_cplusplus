@@ -44,12 +44,6 @@ YOLODetector::YOLODetector(const std::string &modelPath,
         this->isDynamicInputShape = true;
     }
 
-    // for (auto shape : inputTensorShape)
-    //     std::cout << "Input shape: " << shape << std::endl;
-
-
-    // inputNames.push_back(session.GetInputName(0, allocator));
-    // outputNames.push_back(session.GetOutputName(0, allocator));
 
 
     this->inputImageShape = cv::Size2f(inputSize);
@@ -110,8 +104,6 @@ std::vector<Detection> YOLODetector::postprocessing(const cv::Size &resizedImage
     size_t count = outputTensors[0].GetTensorTypeAndShapeInfo().GetElementCount();
     std::vector<float> output(rawOutput, rawOutput + count);
 
-    // for (const int64_t& shape : outputShape)
-    //     std::cout << "Output Shape: " << shape << std::endl;
 
     // first 5 elements are box[4] and obj confidence
     int numClasses = (int)outputShape[2] - 5;
@@ -168,9 +160,7 @@ std::vector<Detection> YOLODetector::detect(cv::Mat &image, const float &confThr
 {
     float *blob = nullptr;
     std::vector<int64_t> inputTensorShape{1, 3, -1, -1};
-    // cv::imshow("Image", image);
-    // cv::waitKey(0);
-    // cv::destroyAllWindows();
+
 
     this->preprocessing(image, blob, inputTensorShape);
 

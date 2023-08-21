@@ -49,6 +49,9 @@ Run from CLI:
 ./yolo_ort
 ```
 
+## Output
+
+* [ ] ![img](output.gif)
 
 ## References
 
